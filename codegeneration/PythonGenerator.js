@@ -120,10 +120,10 @@ removeQuotes(str) {
   return newStr;
 }
 
-const path = require('path');
-const {
-  SemanticArgumentCountMismatchError
-} = require(path.resolve('error', 'helper'));
+//const path = require('path');
+//const {
+//  SemanticArgumentCountMismatchError
+//} = require(path.resolve('error', 'helper'));
 
 /**
  * Visits `Number` Keyword
